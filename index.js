@@ -1,6 +1,3 @@
-var cli = require('cli-define');
-var Flag = cli.Flag;
-
 var env = require('cli-env');
 var handler = require('cli-help');
 
@@ -46,7 +43,7 @@ module.exports = function help(name, description, action, disable) {
   description = description || config.description;
   action = action || config.action || handler;
 
-  var flag = new Flag(name, description, {action: action});
+  var flag = this.createFlag(name, description, {action: action});
   flag.key('helpopt');
   //flag.value(undefined);
   this.flag(flag);

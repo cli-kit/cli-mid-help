@@ -23,9 +23,8 @@
     "help"
   ],
   "dependencies": {
-    "cli-define": "^0.6.4",
     "cli-env": "^1.0.9",
-    "cli-help": "0.0.4"
+    "cli-help": "0.0.5"
   },
   "devDependencies": {
     "chai": "^1.9.1",

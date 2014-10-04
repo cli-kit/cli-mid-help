@@ -1,6 +1,6 @@
 {
   "name": "cli-mid-help",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Help option middleware",
   "author": "muji <noop@xpm.io>",
   "repository": {

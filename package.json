@@ -23,13 +23,13 @@
     "help"
   ],
   "dependencies": {
-    "cli-env": "^1.0.9",
-    "cli-help": "~0.1.0"
+    "cli-env": "~1.0.10",
+    "cli-help": "~0.1.1"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "istanbul": "^0.3.2",
-    "mocha": "^1.21.4"
+    "chai": "~3.2.0",
+    "istanbul": "~0.3.17",
+    "mocha": "~2.2.5"
   },
   "engine": [
     "node >= 0.10.21"
